@@ -686,6 +686,10 @@ button {
     z-index: 3
 }
 
+.boxes-area-pharmaceuticals{
+    position: relative;
+}
+
 @media(max-width:567px){
     .boxes-area-pharmaceuticals img{
         height: 265px;
