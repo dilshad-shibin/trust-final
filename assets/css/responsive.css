@@ -126,7 +126,10 @@
         min-height: 50vh;
     }
     .down-arrow{
-        bottom: 0;
+        bottom: 15px;
+    }
+    .down-arrow img{
+        width: 70%;
     }
     .main-banner-herbo::before {
         background: #00c6ff;
