@@ -3843,7 +3843,17 @@ button {
 .network-names{
     /* color: #ac9a2f; */
     font-size: 1rem;
-    border-bottom: 3px solid;
+    position: relative;
+    /* border-bottom: 3px solid; */
+}
+
+.network-names::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #ac9a2f;
+    bottom: 0;
 }
 
 .welcome-sign{
@@ -3954,7 +3964,7 @@ button {
         margin-top: 292px;
     }
     .family-images{
-        margin: 245px 0 50px 0;
+        /* margin: 245px 0 50px 0; */
     }
     .sub-img-flex-production{
         left: 25% !important;
@@ -3974,13 +3984,18 @@ button {
 }
 
 .res-header{
-    font-size: 68px !important;
+    /* font-size: 68px !important; */
+    font-size: 42px !important;
+    /* text-transform: uppercase; */
 }
 
 @media(max-width: 767px){
     .res-header{
         font-size: 25px !important;
     }  
+    .col-res{
+        flex-basis: unset;
+    }
 }
 
 
@@ -4010,7 +4025,7 @@ button {
 .blog-box-content h3{
     font-weight: 700;
     font-family: 'Exo', sans-serif;
-    font-size: 60px !important;
+    font-size: 42px !important;
     color: #3b566e;
 }
 
@@ -4063,12 +4078,18 @@ button {
     color: #fff;
     font-weight: 700;
     font-family: 'Exo', sans-serif;
-    font-size: 65px !important;
+    font-size: 32px !important;
     letter-spacing: 2px;
     line-height: 1.2;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media(max-width:767px){
+    .product-content-img{
+        font-size: 22px !important;
+    }
 }
 
 .bg-section{
@@ -4083,7 +4104,7 @@ button {
     color: #fff;
     font-weight: 700;
     font-family: 'Exo', sans-serif;
-    font-size: 60px !important;
+    font-size: 45px !important;
     letter-spacing: 2px;
 }
 
@@ -4099,6 +4120,7 @@ button {
     transition: all .3s ease;
     box-shadow: 0 4px 8px rgba(0,0,0,.32);
     border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 .post-card img{
@@ -4107,13 +4129,13 @@ button {
 }
 
 .post-card-text{
-    padding: 40px 60px;
+    padding: 30px;
 }
 
 .post-card-text h3{
     font-weight: 700;
     font-family: 'Exo', sans-serif;
-    font-size: 50px !important;
+    font-size: 28px !important;
     color: #3b566e;
 }
 
@@ -4129,7 +4151,7 @@ button {
 .down-arrow{
     position: absolute;
     z-index: 2;
-    bottom: 15%;
+    bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
