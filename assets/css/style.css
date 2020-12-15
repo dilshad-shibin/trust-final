@@ -4194,3 +4194,34 @@ button {
 iframe.youtube{
     height: 510px;
 }
+
+.bg-101820{
+    background-color: #101820;
+    color: #fff;
+}
+
+.stay-in-touch{
+    margin: 0 1.875rem;
+    font-family: Arquitecta-Black;
+    font-size: 2.375rem;
+    line-height: 1.4;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.touch-header{
+    width: 100%;
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.stay-in-touches ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.stay-in-touches ul li{}
