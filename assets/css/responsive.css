@@ -62,7 +62,7 @@
         background: #eee
     }
     .section-title {
-        margin-bottom: 40px
+        margin-bottom: 20px
     }
     .section-title h3 {
         font-size: 22px
@@ -132,10 +132,10 @@
         width: 70%;
     }
     .main-banner-herbo::before {
-        background: #00c6ff;
+        /* background: #00c6ff;
         background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
         background: linear-gradient(to right, #00aaad, #00c6ff);
-        opacity: .77
+        opacity: .77 */
     }
     .hero-content h1 {
         color: #fff;

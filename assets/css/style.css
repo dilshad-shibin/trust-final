@@ -572,6 +572,30 @@ button {
     height: 100vh;
 }
 
+.main-banner-herbo{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 100vh;
+}
+
+.main-banner-pharmaceuticals{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 100vh;
+}
+
+@media(max-width: 575px){
+    .main-banner-herbo, .main-banner-pharmaceuticals{
+        height: 55vh;
+    }
+}
+
 .main-banner:before {
     content: "";
     position: absolute;
@@ -580,7 +604,7 @@ button {
     top: 0;
     left: 0;
     right: 0;
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url(../../assets/img/index/banner/pattern.png);
 }
 
@@ -1877,7 +1901,7 @@ button {
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
     padding: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 110px;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -1887,6 +1911,13 @@ button {
     -webkit-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
     margin-top: 50px
+}
+
+@media(max-width: 576px){
+    .single-feedback{
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
 }
 
 .single-feedback:hover {
@@ -1922,14 +1953,16 @@ button {
 
 .single-feedback .client-info {
     position: relative;
-    padding-left: 118px;
+    /* padding-left: 118px; */
     /* margin-bottom: 65px */
 }
 
 .single-feedback .client-info .img {
     position: absolute;
-    left: 0;
+    left: 45%;
     width: 100px;
+    transform: translate(-50%);
+    top: 50%;
 }
 
 .single-feedback .client-info .img img {
@@ -1937,14 +1970,16 @@ button {
 }
 
 .single-feedback .client-info h4 {
-    font-size: 18px
+    font-size: 16px;
+    text-align: center;
 }
 
 .single-feedback .client-info span {
     display: block;
     font-size: 14px;
     color: #6f8ba4;
-    margin-top: 5px
+    margin-top: 5px;
+    text-align: center;
 }
 
 .single-feedback .client-info h4,
@@ -1960,8 +1995,9 @@ button {
 }
 
 .testi-text{
-    font-size: 25px;
+    font-size: 16px;
     text-indent: 10%;
+    text-align: justify;
 }
 
 .testi-text:after{
@@ -1969,13 +2005,16 @@ button {
 }
 
 .testi-name{
-    margin: 26px 0 20px 120px;
+    position: relative;
+    top: 140px;
 }
 
 .single-feedback:hover .client-info h4,
-.single-feedback:hover .client-info span,
-.single-feedback:hover p {
-    color: #fff
+.single-feedback:hover .client-info span{
+    color: #6f8ba4
+}
+.single-feedback:hover p{
+    color: #fff;
 }
 
 .single-feedback i {
@@ -3387,7 +3426,8 @@ button {
     transition: 0.5s ease;
 }
 
-.main-banner .overlay {
+.main-banner .overlay,
+.main-banner-herbo .overlay {
     opacity: 0.5;
     background: #1c1d21;
     top: 0;
@@ -3397,6 +3437,8 @@ button {
     position: absolute;
     /* background-color: rgba(0,0,0,.3); */
 }
+
+
 
 .mouse_down {
     bottom: 0;
@@ -3745,13 +3787,19 @@ button {
 }
 
 .hero-content-bg {
-    height: 98vh;
+    height: 100vh;
     position: relative;
     background-image: url(../../assets/img/banner/homepage-banner1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: bottom; */
     z-index: 1;
+}
+
+@media(max-width:575px){
+    .hero-content-bg{
+        height: 50vh;
+    }
 }
 
 .hero-content-bg:before {
@@ -3773,35 +3821,53 @@ button {
     background-image: url(../../assets/img/banner/homepage-banner3.jpg) !important;
 }
 
-.hero-text {
+/* .hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-}
+} */
 
 .hero-text h2,
 .hero-text p {
     color: #fff !important;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hero-text h2 {
     font-size: 3rem;
 }
 
+@media(max-width: 575px){
+    .hero-text h2{
+        font-size: 2rem;
+    }
+}
+
 .herbo-bg{
-    background-image: url(../../assets/img/banner/herboBanner1.jpg) !important;
+    background-image: url(../../assets/img/herbo/banner/banner_herbo_01.jpg) !important;
 }
 .herbo-bg2{
-    background-image: url(../../assets/img/banner/herboBanner2.jpg) !important;
+    background-image: url(../../assets/img/herbo/banner/banner_herbo_02.jpg) !important;
 }
 .herbo-bg3{
-    background-image: url(../../assets/img/banner/herboBanner3.jpg) !important;
+    background-image: url(../../assets/img/herbo/banner/banner_herbo_03.jpg) !important;
 }
 .herbo-bg4{
     background-image: url(../../assets/img/banner/herboBanner4.jpg) !important;
+}
+
+.pharmaceuticals-bg{
+    background-image: url(../../assets/img/pharmaceuticals/banner/box1.jpg) !important;
+}
+
+.pharmaceuticals-bg2{
+    background-image: url(../../assets/img/pharmaceuticals/banner/pharmaceuticals-banner.jpg) !important;
+}
+
+.pharmaceuticals-bg3{
+    background-image: url(../../assets/img/pharmaceuticals/banner/PANA9909.jpg) !important;
 }
 
 .video-section iframe{
@@ -4224,4 +4290,10 @@ iframe.youtube{
     margin-top: 15px;
 }
 
-.stay-in-touches ul li{}
+.stay-in-touches ul li{
+    margin-bottom: 15px;
+}
+
+.bg-000{
+    background-color: #000;
+}

@@ -57,7 +57,7 @@
                 loop: true,
                 margin: 20,
                 autoplay: true,
-                nav: true,
+                nav: false,
                 dots: false,
                 navText: ["<i class='icon-chevron-left'></i>", "<i class='icon-chevron-right'></i>"],
                 responsive: {
@@ -70,10 +70,10 @@
                         margin: 10
                     },
                     992: {
-                        items: 1
+                        items: 3
                     },
                     1200: {
-                        items: 1
+                        items: 3
                     }
                 }
             }), t(".brand-slider").owlCarousel({
