@@ -574,7 +574,7 @@ button {
 
 @media(min-width: 768px){
     .main-banner-pharmaceuticals{
-        background-position: calc(100% - -524px) calc(100% - 0px) !important;
+        background-position: calc(100% - 72%) calc(100% - 0px) !important;
     }
 }
 
