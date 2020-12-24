@@ -4551,9 +4551,15 @@ iframe.youtube{
 
 @media(max-width:576px){
     .marquee{
-        height: 135px;
+        height: 270px;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
+    }
+    .marquee-inner{
+        width: 500% !important;
+    }
+    .marquee-inner span .world-column .world-image{
+        height: 200px !important;
     }
 }
 
