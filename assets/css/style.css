@@ -572,6 +572,12 @@ button {
     height: 100vh;
 }
 
+@media(min-width: 768px){
+    .main-banner-pharmaceuticals{
+        background-position: calc(100% - -524px) calc(100% - 0px) !important;
+    }
+}
+
 .main-banner-herbo{
     position: relative;
     background-size: cover;
@@ -601,6 +607,17 @@ button {
     position: absolute;
     display: block;
     /* background: linear-gradient(180deg, rgba(0, 0, 0, .5) 0, hsla(0, 0%, 100%, 0)); */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    /* background-image: url(../../assets/img/index/banner/pattern.png); */
+}
+
+.main-banner-index:before{
+    content: "";
+    position: absolute;
+    display: block;
     top: 0;
     left: 0;
     right: 0;
