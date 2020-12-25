@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i);
 body {
-    /* padding: 20px 20px 0 20px; */
     margin: 0;
     font-family: Nunito, sans-serif
 }
@@ -247,7 +246,6 @@ button {
     font-size: 28px;
     margin-bottom: 16px;
     margin-top: -5px;
-    /* font-size: 38px; */
     font-weight: 700;
     font-family: 'Exo', sans-serif;
 }
@@ -272,7 +270,6 @@ button {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    /* background: #1b423e */
     background-color: #007FFF;
 }
 
@@ -285,7 +282,6 @@ button {
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     background: transparent;
-    /* border: 3px solid #3c3c3c; */
     border-radius: 50%;
     text-align: center;
     line-height: 150px;
@@ -296,8 +292,6 @@ button {
     font-family: sans-serif;
     font-size: 20px;
     color: #fff;
-    /* margin-top: -70px; */
-    /* margin-left: -65px */
 }
 
 .preloader-area .spinner:before{
@@ -433,10 +427,6 @@ button {
     animation: .5s ease-in-out 0s normal none 1 running fadeInDown
 }
 
-.navbar-light.is-sticky .navbar-brand {
-    /* padding-top: .3rem !important; */
-}
-
 .navbar-light.is-sticky .navbar-brand span {
     color: #000 !important;
 }
@@ -450,7 +440,6 @@ button {
 }
 
 .navbar-light.navbar-expand-lg .navbar-nav li a {
-    /* color: #6f8ba4; */
     color: #fff;
     font-size: 18px;
     padding: 0
@@ -501,7 +490,6 @@ button {
 .appointment-btn2 {
     font-size: 14px;
     font-weight: 600;
-    /* color: #00bfff; */
     background: #00bfff;
     color: #fff;
     border: 1px solid #00bfff;
@@ -562,7 +550,6 @@ button {
 }
 
 .main-banner {
-    /* height: 730px; */
     background-image: url(../../assets/img/hero-bg.jpg);
     position: relative;
     background-size: cover;
@@ -606,12 +593,10 @@ button {
     content: "";
     position: absolute;
     display: block;
-    /* background: linear-gradient(180deg, rgba(0, 0, 0, .5) 0, hsla(0, 0%, 100%, 0)); */
     top: 0;
     left: 0;
     right: 0;
     height: 100vh;
-    /* background-image: url(../../assets/img/index/banner/pattern.png); */
 }
 
 .main-banner-index:before{
@@ -627,12 +612,6 @@ button {
 
 .main-banner-pharmaceticals {
     background-image: url(../../assets/img/banner/hero-bg.jpg);
-}
-
-@media only screen and (min-width:1400px) {
-    .main-banner {
-        /* height: 860px */
-    }
 }
 
 .main-banner-herbo::before {
@@ -679,7 +658,6 @@ button {
 .hero-content p {
     margin-bottom: 25px;
     font-size: 15px;
-    /* max-width: 600px */
 }
 
 .hero-video {
@@ -1106,9 +1084,6 @@ button {
 }
 
 .tabs li {
-    /* -ms-flex: 0 0 16.6666666667%;
-    flex: 0 0 16.6666666667%;
-    max-width: 16.6666666667%; */
     max-width: 19.666667%;
     flex: 0 0 19.666667%;
     -ms-flex: 0 0 19.666667%;
@@ -1126,7 +1101,6 @@ button {
     padding: 25px 12px;
     font-size: 16px;
     font-weight: 600;
-    /* text-transform: uppercase; */
     color: #3b566e;
     position: relative;
     z-index: 1
@@ -1149,14 +1123,6 @@ button {
     transition: .4s
 }
 
-.tabs li:first-child a {
-    /* border-radius: 30px 0 0 0 */
-}
-
-.tabs li:last-child a {
-    /* border-radius: 0 30px 0 0 */
-}
-
 .tabs li a::before {
     content: '';
     position: absolute;
@@ -1176,14 +1142,6 @@ button {
     -moz-transition: .4s;
     -webkit-transition: .4s;
     transition: .4s
-}
-
-.tabs li:first-child a::before {
-    /* border-radius: 30px 0 0 0 */
-}
-
-.tabs li:last-child a::before {
-    /* border-radius: 0 30px 0 0 */
 }
 
 .tabs li a:hover::before,
@@ -1970,8 +1928,6 @@ button {
 
 .single-feedback .client-info {
     position: relative;
-    /* padding-left: 118px; */
-    /* margin-bottom: 65px */
 }
 
 .single-feedback .client-info .img {
@@ -2219,7 +2175,6 @@ button {
 }
 
 .get-in-touch ul li a {
-    /* color: #92a5b8; */
     font-size: 15px;
     margin-right: 5px;
     font-weight: 600;
@@ -2563,8 +2518,6 @@ button {
 }
 
 .first-footer {
-    /* background-color: yellow;
-    padding: 50px; */
     padding: 0 !important;
 }
 
@@ -2609,7 +2562,6 @@ button {
 }
 
 .text-primary {
-    /* color: #fe696a !important; */
     color: #000 !important;
 }
 
@@ -2736,7 +2688,6 @@ button {
     position: relative;
     min-height: 260px;
     float: left;
-    /* margin-bottom: 20px; */
 }
 
 .mission-header,
@@ -2783,8 +2734,6 @@ button {
 
 .key-section {
     padding: 100px 0;
-    /* background: url(../img/about/faq-bg.jpg) no-repeat; */
-    /* background-image: linear-gradient(#3a6186, #89253e); */
     background-image: linear-gradient( #000428, #004e92);
     background-size: cover;
 }
@@ -3266,8 +3215,6 @@ button {
         left: auto;
         -webkit-transform: inherit;
         transform: inherit;
-        /* background-color: transparent; */
-        /* border: 1px solid; */
         padding: 0;
         background-color: #f5f7fb;
     }
@@ -3283,11 +3230,6 @@ button {
     margin: 1rem 0;
     padding: 0;
     list-style: none;
-    /* border-top: 1px solid #e5e5e5; */
-}
-
-.accordion-item {
-    /* border-bottom: 1px solid #e5e5e5; */
 }
 
 
@@ -3295,7 +3237,6 @@ button {
 
 .accordion-thumb {
     margin: 0;
-    /* padding: .8rem 0; */
     cursor: pointer;
     font-weight: normal;
     background: linear-gradient(270deg, rgba(0, 170, 173, 1) 0%, rgba(0, 170, 170, .3) 100%);
@@ -3350,16 +3291,9 @@ button {
 }
 
 .content-banner {
-    /* text-align: center; */
     display: flex;
     align-items: center;
     min-height: 100vh;
-}
-
-@media(min-width: 992px) {
-    .content-banner {
-        /* margin-top: 75px; */
-    }
 }
 
 .content-banner h2 {
@@ -3452,7 +3386,6 @@ button {
     left: 0;
     right: 0;
     position: absolute;
-    /* background-color: rgba(0,0,0,.3); */
 }
 
 
@@ -3554,13 +3487,6 @@ button {
 }
 
 
-/* Last edit no 226{
-    font-size: 38px;
-    font-weight: 700;
-    font-family: 'Exo', sans-serif;
-} */
-
-
 /* pharmaceuticals css */
 
 .iconbox-icon {
@@ -3576,16 +3502,6 @@ button {
     align-items: center;
     justify-content: center;
 }
-
-
-/* .single-box2:hover {
-    background-color: #00bfff;
-    color: #fff;
-}
-
-.single-box2:hover .iconbox-icon {
-    background-color: #fff !important;
-} */
 
 .sidemenu {
     position: absolute;
@@ -3619,7 +3535,6 @@ button {
     z-index: 105;
     width: 100%;
     height: 110vh;
-    /* top: -110vh; */
     background: #4267b2;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -3955,15 +3870,6 @@ button {
     }
 }
 
-/* @media(max-width:767px){
-        .navbar-light.is-sticky .navbar-toggle-mobile{
-            top: -32px;
-        }
-        .navbar-light.is-sticky .navbar-toggle-btn{
-            top: -40px;
-        }
-      } */
-
 @media(max-width: 400px) {
     .navbar-toggle-mobile {
         right: 35% !important;
@@ -3974,19 +3880,12 @@ button {
     }
 }
 
-@media only screen and (min-width: 1400px) {
-    .main-banner {
-        /* height: 860px; */
-    }
-}
-
 .hero-content-bg {
     height: 100vh;
     position: relative;
     background-image: url(../../assets/img/banner/homepage-banner1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: bottom; */
     z-index: 1;
 }
 
@@ -4015,18 +3914,9 @@ button {
     background-image: url(../../assets/img/banner/homepage-banner3.jpg) !important;
 }
 
-/* .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-} */
-
 .hero-text h2,
 .hero-text p {
     color: #fff !important;
-    /* text-align: center; */
 }
 
 .hero-text h2 {
@@ -4076,7 +3966,6 @@ button {
 }
 
 .video-section iframe.youtube{
-    /* width: 700px; */
     height: 380px;
 }
 
@@ -4118,10 +4007,8 @@ button {
 }
 
 .network-names{
-    /* color: #ac9a2f; */
     font-size: 1rem;
     position: relative;
-    /* border-bottom: 3px solid; */
 }
 
 .network-names::before{
@@ -4240,9 +4127,6 @@ button {
     .main-div-2{
         margin-top: 292px;
     }
-    .family-images{
-        /* margin: 245px 0 50px 0; */
-    }
     .sub-img-flex-production{
         left: 25% !important;
     }
@@ -4261,9 +4145,7 @@ button {
 }
 
 .res-header{
-    /* font-size: 68px !important; */
     font-size: 42px !important;
-    /* text-transform: uppercase; */
 }
 
 @media(max-width: 767px){
@@ -4283,7 +4165,6 @@ button {
 
 .blog-box{
     background-color: #fff;
-    /* box-shadow: 0 9px 20px -2px rgba(214,214,214,.3); */
     position: relative;
     transition: all .3s ease;
     box-shadow: 0 4px 8px rgba(0,0,0,.32);
@@ -4407,8 +4288,6 @@ button {
 }
 
 .post-card img{
-    /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
     width: 100%;
 }
 
@@ -4422,8 +4301,6 @@ button {
 .post-card-border img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    /* border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; */
 }
 
 
@@ -4518,7 +4395,6 @@ iframe.youtube{
 
 .stay-in-touch{
     margin: 0 1.875rem;
-    /* font-family: Arquitecta-Black; */
     font-size: 2.375rem;
     line-height: 1.4;
     letter-spacing: 6px;
