@@ -65,6 +65,9 @@
     .section-title {
         margin-bottom: 20px
     }
+    .about-section-herbo .section-title{
+        margin-bottom: 30px !important;
+    }
     .section-title h3 {
         font-size: 22px
     }
