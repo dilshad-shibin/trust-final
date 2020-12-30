@@ -4647,11 +4647,12 @@ iframe.youtube{
   }
 
   .quote{
-    font-size: 400%;
-    float: right;
+    font-size: 40px;
+    float: left;
     opacity: .1;
-    transform: rotate(10deg) translate(-10px, -40px);
-   color:#4D3FA3;
+    transform: rotate(10deg) translate(-50%,-50%);
+    color:#4D3FA3;
+    position: absolute;
   }
 
   .person{
