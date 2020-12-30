@@ -56,7 +56,7 @@
             t(".testi-slider").owlCarousel({
                 loop: true,
                 margin: 20,
-                autoplay: true,
+                autoplay:false,
                 nav: false,
                 dots: false,
                 navText: ["<i class='icon-chevron-left'></i>", "<i class='icon-chevron-right'></i>"],

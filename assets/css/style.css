@@ -4591,3 +4591,86 @@ iframe.youtube{
           font-size: 2rem !important;
       }
   }
+
+  /* testimonial css */
+
+  .testimonial-card{
+    min-height: 520px;
+    /* width: 350px; */
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0 8px 5px rgba(0,0,0,.3); */
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .text{
+    padding: 1.5rem;
+    line-height: 1.7em;
+    position: relative;
+    font-size: 18px;
+  }
+
+  .testi-footer{
+    background: linear-gradient(90deg, #1a2B96 0%, #d22B96 100%);
+    height: 160px;
+    border-radius: 0 0 10px 10px;
+    position:relative;
+  }
+
+  .testi-footer-img{
+    background-color:tomato;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    /* background:no-repeat center/cover url(https://images.unsplash.com/photo-1563715992566-7ad5cf5b71d3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    justify-content:center;
+  }
+  .testi-footer-img.img1{
+    background:no-repeat center/cover url(../../assets/img/pharmaceuticals/testimonials/Dr\ Ashwin\ Krishnamoorthy.jpg);
+  }
+  .testi-footer-img.img2{
+    background:no-repeat center/cover url(../../assets/img/pharmaceuticals/testimonials/Mary\ Joseph.jpg);
+  }
+  .testi-footer-img.img3{
+    background:no-repeat center/cover url(../../assets/img/pharmaceuticals/testimonials/Balu\ U.jpg);
+  }
+  .testi-footer-img.img4{
+    background:no-repeat center/cover url(../../assets/img/pharmaceuticals/testimonials/abdul_jaleel.jpg);
+  }
+
+  .quote{
+    font-size: 400%;
+    float: right;
+    opacity: .1;
+    transform: rotate(10deg) translate(-10px, -40px);
+   color:#4D3FA3;
+  }
+
+  .person{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .testi-footer span{
+    position: absolute;
+    color: #ccc;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    white-space: nowrap;
+  }
+
