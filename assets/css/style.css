@@ -4712,3 +4712,7 @@ iframe.youtube{
     white-space: nowrap;
   }
 
+.loc-link{
+    color: #ff0000ab;
+    text-decoration: underline;
+}
